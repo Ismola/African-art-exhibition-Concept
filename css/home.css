@@ -2,8 +2,6 @@
     height: calc(100vh - 75px);
     position: relative;
     min-height: 900px;
-
-    overflow: hidden;
 }
 
 

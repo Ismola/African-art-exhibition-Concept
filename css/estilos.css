@@ -25,8 +25,8 @@ body{
 
     left: 50%;
     transform: translate(-50%,0);
-    animation: fadein 1s forwards;
-
+    animation: fadein 2s forwards;
+    
 }
 @keyframes fadein {
     0%{

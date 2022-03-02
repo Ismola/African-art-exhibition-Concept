@@ -15,9 +15,9 @@
 .imagenPortada{
     position: absolute;
     width: 100vw;
-    max-width: 900px;
+    max-width: 850px;
     height: auto;
-    bottom: 0;
+    top: 25%;
     left: 50%;
     transform: translate(-50%,0);
 }
@@ -63,6 +63,9 @@
 @media only screen and (max-width: 600px) {
     .portada {
         min-height: 600px;
+    }
+    .imagenPortada{
+        top: 50%;
     }
     .imagenPortada{
         max-width: 400px;

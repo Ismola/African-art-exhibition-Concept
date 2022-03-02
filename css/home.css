@@ -28,7 +28,7 @@
     /* text-transform: uppercase; */
     font-family: 'Roboto Serif', sans-serif;
     text-align: center;
-
+    font-style: italic;
     position: absolute;
     top: -50%;
     filter: opacity(0%);

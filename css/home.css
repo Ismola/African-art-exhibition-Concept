@@ -60,6 +60,10 @@
     }
     .imagenPortada{
         max-width: 400px;
+        
+    }
+    .imagenPortada{
+        top: 45%;
     }
 }
 @media only screen and (max-width: 600px) {

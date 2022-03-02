@@ -1,6 +1,107 @@
-.portada {
-    height: calc(100vh - 75px);
+.sec {
+    min-height: 100vh;
     position: relative;
-    min-height: 900px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+}
 
+.sec2 {
+    background: #F8F9FA;
+}
+
+.contenido {
+    margin: auto;
+    width: 97%;
+    max-width: 1400px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contenido>div {
+    width: 50%;
+}
+.subtitulo {
+    font-size: 60px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 7px;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+
+.subtitulo1 {
+    background: url(../Imagenes/Originales/expo/cosas/hu-chen-60XLoOgwkfA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: center;
+
+
+}
+
+.subtitulo2 {
+    background: url(../Imagenes/Originales/expo/cosas/pexels-follow-alice-667200.jpg);
+    background-size: cover;
+    background-position: right;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: center;
+
+}
+.subtitulo3 {
+    background: url(../Imagenes/Originales/expo/cosas/morocco-g27761b61f_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: center;
+
+}
+
+
+.imagen>img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+    .sec {
+        min-height: 150vh;
+    }
+
+    .contenido {
+        flex-direction: column;
+
+    }
+
+    .contenido>div {
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagen>img {
+        height: 100%;
+        width: auto;
+    }
+
+    .sec2>.contenido {
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .contenido>div:nth-child(1) {
+        font-size: 35px;
+    }
 }

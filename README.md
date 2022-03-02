@@ -1,2 +1,2 @@
 # Exposicion de Arte
-## Link: ismola-exposicion.netlify.app
+## Link: https://ismola-exposicion.netlify.app/

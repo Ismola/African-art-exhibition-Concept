@@ -1,7 +1,9 @@
 .portada {
-    height: calc(100vh - 65px);
+    height: calc(100vh - 100px);
     position: relative;
     min-height: 900px;
+
+    overflow: hidden;
 }
 
 

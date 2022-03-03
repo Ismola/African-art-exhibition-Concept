@@ -2,6 +2,8 @@
     height: calc(100vh - 75px);
     position: relative;
     min-height: 900px;
+
+    overflow: hidden;
 }
 
 
@@ -19,16 +21,20 @@
     height: auto;
     top: 25%;
     left: 50%;
-    transform: translate(-50%,0);
+    transform: translate(-50%,-0);
+
+    filter: opacity(0);
+
+
 }
 
 .titulo{
-    /* text-transform: uppercase; */
+
     font-family: 'Roboto Serif', sans-serif;
     text-align: center;
     font-style: italic;
     position: absolute;
-    top: -50%;
+    top: 18%;
     filter: opacity(0%);
 
     font-size: 30px;
@@ -37,6 +43,63 @@
     transform: translate(-50%,0);
     animation: fadein 2s forwards;
     
+}
+
+#p1{
+    animation: p1 .9s .3s forwards;
+}
+#p2{
+    animation: p2 1s .5s forwards;
+}
+#p3{
+    animation: p3 .8s .4s forwards;
+}
+#p4{
+    animation: p4 .7s .6s forwards;
+}
+@keyframes p1 {
+    0%{
+        margin-left: -100px;
+        filter: opacity(0%);
+    }
+    100%{
+        filter: opacity(100%);
+        margin-left: 0;
+    }
+}
+@keyframes p2 {
+    0%{
+        margin-left: 100px;
+        filter: opacity(0%);
+    }
+    100%{
+        filter: opacity(100%);
+        margin-left: 0px;
+    }
+}
+@keyframes p3 {
+    0%{
+        margin-left: 100px;
+        margin-top: -100px;
+        filter: opacity(0%);
+    }
+    100%{
+        filter: opacity(100%);
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
+@keyframes p4 {
+    0%{
+        margin-left: -100px;
+        margin-top: 100px;
+        filter: opacity(0%);
+    }
+    100%{
+        filter: opacity(100%);
+        margin-left: 0px;
+        margin-top: 0px;
+    }
 }
 @keyframes fadein {
     0%{

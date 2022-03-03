@@ -26,44 +26,55 @@
 .contenido>div {
     width: 50%;
 }
+
 .subtitulo {
-    font-size: 60px;
-    font-family: 'Anton', sans-serif;
-    letter-spacing: 7px;
-    text-align: center;
-    cursor: pointer;
-
-
+    text-align: right;
+    display: flex;
+    flex-direction: column;
 }
 
-.subtitulo1 {
+.subtitulo1>span {
     background: url(../Imagenes/Originales/expo/cosas/hu-chen-60XLoOgwkfA-unsplash.jpg);
     background-size: cover;
     background-position: center;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-position: center;
-
-
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 7px;
 }
 
-.subtitulo2 {
+.subtitulo>p {
+    text-align: justify;
+    text-align-last: right;
+}
+.subtitulo2>p{
+    text-align-last: left;
+}
+
+.subtitulo2>span {
     background: url(../Imagenes/Originales/expo/cosas/pexels-follow-alice-667200.jpg);
     background-size: cover;
     background-position: right;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-position: center;
-
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 7px;
+    text-align: left;
 }
-.subtitulo3 {
+.subtitulo3>span {
     background: url(../Imagenes/Originales/expo/cosas/morocco-g27761b61f_1920.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: right;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-position: center;
-
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 7px;
 }
 
 
@@ -85,7 +96,7 @@
         height: 50%;
         width: 100%;
         display: flex;
-        flex-direction: row;
+        /* flex-direction: row; */
         justify-content: center;
         align-items: center;
     }
@@ -98,10 +109,15 @@
     .sec2>.contenido {
         flex-direction: column-reverse;
     }
+
+    .subtitulo>span {
+
+        font-size: 8vw;
+    }
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     .contenido>div:nth-child(1) {
         font-size: 35px;
     }
-}
+} */

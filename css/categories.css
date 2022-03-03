@@ -34,7 +34,7 @@
 }
 
 .subtitulo1>span {
-    background: url(../Imagenes/Originales/expo/cosas/hu-chen-60XLoOgwkfA-unsplash.jpg);
+    background: url(../Imagenes/Originales/expo/patextos/hu-chen-60XLoOgwkfA-unsplash.jpg);
     background-size: cover;
     background-position: center;
     -webkit-background-clip: text;
@@ -54,7 +54,7 @@
 }
 
 .subtitulo2>span {
-    background: url(../Imagenes/Originales/expo/cosas/pexels-follow-alice-667200.jpg);
+    background: url(../Imagenes/Originales/expo/patextos/pexels-follow-alice-667200.jpg);
     background-size: cover;
     background-position: right;
     -webkit-background-clip: text;
@@ -66,7 +66,7 @@
     text-align: left;
 }
 .subtitulo3>span {
-    background: url(../Imagenes/Originales/expo/cosas/edgar-castrejon-J04BD4ysoh8-unsplash.jpg);
+    background: url(../Imagenes/Originales/expo/patextos/edgar-castrejon-J04BD4ysoh8-unsplash.jpg);
     background-size: cover;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

@@ -1,140 +1,52 @@
-.portada {
-    height: calc(100vh - 75px);
+.sec1{
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 80px;
     position: relative;
-    min-height: 900px;
 
-    overflow: hidden;
+    position: relative;
+
+    background: red;
+
+
 }
+.linea{
+    height: 600px;
+    background-color: #262626;
+}
+.contenido{
+    /* position: relative; */
+    background: #F8F9FA;
+    font-family: 'Montserrat', sans-serif;
+}
+.info{
+    position: absolute;
 
-
-.resaltado{
-    background: url(../Imagenes/Originales/expo/animales/pexels-pixabay-40803.jpg);
+    background:url(../Imagenes/Originales/expo/patextos/blur.png);
     background-position: center;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.imagenPortada{
-    position: absolute;
-    width: 100vw;
-    max-width: 850px;
-    height: auto;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%,-0);
-
-    filter: opacity(0);
+    background-size: cover;
+    z-index: 10;
+    top: 50%;
+    right: -50px;
+    transform: translate(0,-50%);
+    box-shadow: 0px 2px 37px 0px rgba(0,0,0,0.75);
 
 
+    height: 400px;
+    width: 400px;
+
+
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.titulo{
-
-    font-family: 'Roboto Serif', sans-serif;
-    text-align: center;
-    font-style: italic;
-    position: absolute;
-    top: 18%;
-    filter: opacity(0%);
-
-    font-size: 30px;
-
-    left: 50%;
-    transform: translate(-50%,0);
-    animation: fadein 2s forwards;
-    
-}
-
-#p1{
-    animation: p1 .9s .3s forwards;
-}
-#p2{
-    animation: p2 1s .5s forwards;
-}
-#p3{
-    animation: p3 .8s .4s forwards;
-}
-#p4{
-    animation: p4 .7s .6s forwards;
-}
-@keyframes p1 {
-    0%{
-        margin-left: -100px;
-        filter: opacity(0%);
+@media only screen and (max-width: 1000px) {
+    .ancho{
+        /* background-color: red; */
+        /* width: 100px; */
     }
-    100%{
-        filter: opacity(100%);
-        margin-left: 0;
-    }
-}
-@keyframes p2 {
-    0%{
-        margin-left: 100px;
-        filter: opacity(0%);
-    }
-    100%{
-        filter: opacity(100%);
-        margin-left: 0px;
-    }
-}
-@keyframes p3 {
-    0%{
-        margin-left: 100px;
-        margin-top: -100px;
-        filter: opacity(0%);
-    }
-    100%{
-        filter: opacity(100%);
-        margin-left: 0px;
-        margin-top: 0px;
-    }
-}
-@keyframes p4 {
-    0%{
-        margin-left: -100px;
-        margin-top: 100px;
-        filter: opacity(0%);
-    }
-    100%{
-        filter: opacity(100%);
-        margin-left: 0px;
-        margin-top: 0px;
-    }
-}
-@keyframes fadein {
-    0%{
-        top: -50%;
-        filter: opacity(0%);
-    }
-    80%{
-        filter: opacity(0%);
-    }
-    100%{
-        top: 18%;
-        filter: opacity(100%);
-    }
-    
-}
-@media only screen and (max-height: 600px) {
-    .portada {
-        min-height: 600px;
-    }
-    .imagenPortada{
-        max-width: 400px;
-        
-    }
-    .imagenPortada{
-        top: 45%;
-    }
-}
-@media only screen and (max-width: 600px) {
-    .portada {
-        min-height: 600px;
-    }
-    .imagenPortada{
-        top: 50%;
-    }
-    .imagenPortada{
-        max-width: 400px;
+    .contenido{
+        /* width: 125%; */
+        /* background-color: red; */
     }
 }

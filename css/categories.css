@@ -1,0 +1,122 @@
+.sec {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+}
+
+.sec2 {
+    background: #F8F9FA;
+}
+
+.contenido {
+    margin: auto;
+    width: 97%;
+    max-width: 1400px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contenido>div {
+    width: 50%;
+}
+
+.subtitulo {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitulo1>span {
+    background: url(../Imagenes/Originales/expo/cosas/hu-chen-60XLoOgwkfA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: center;
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 7px;
+}
+
+.subtitulo>p {
+    text-align: justify;
+    text-align-last: right;
+}
+.subtitulo2>p{
+    text-align-last: left;
+}
+
+.subtitulo2>span {
+    background: url(../Imagenes/Originales/expo/cosas/pexels-follow-alice-667200.jpg);
+    background-size: cover;
+    background-position: right;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: center;
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 7px;
+    text-align: left;
+}
+.subtitulo3>span {
+    background: url(../Imagenes/Originales/expo/cosas/edgar-castrejon-J04BD4ysoh8-unsplash.jpg);
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: center;
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 7px;
+}
+
+
+.imagen>img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+    .sec {
+        min-height: 150vh;
+    }
+
+    .contenido {
+        flex-direction: column;
+
+    }
+
+    .contenido>div {
+        height: 50%;
+        width: 100%;
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagen>img {
+        height: 100%;
+        width: auto;
+    }
+
+    .sec2>.contenido {
+        flex-direction: column-reverse;
+    }
+
+    .subtitulo>span {
+
+        font-size: 8vw;
+    }
+}
+
+/* @media only screen and (max-width: 600px) {
+    .contenido>div:nth-child(1) {
+        font-size: 35px;
+    }
+} */

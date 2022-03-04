@@ -2,139 +2,152 @@
     height: calc(100vh - 75px);
     position: relative;
     min-height: 900px;
-
     overflow: hidden;
 }
 
-
-.resaltado{
+.resaltado {
     background: url(../Imagenes/Originales/expo/patextos/pexels-saifuddin-ratlamwala-3857080.jpg);
     background-position: center;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.imagenPortada{
+.imagenPortada {
     position: absolute;
     width: 100vw;
     max-width: 850px;
     height: auto;
     top: 25%;
     left: 50%;
-    transform: translate(-50%,-0);
-
+    transform: translate(-50%, -0);
     filter: opacity(0);
-
 
 }
 
-.titulo{
-
+.titulo {
     font-family: 'Roboto Serif', sans-serif;
     text-align: center;
     font-style: italic;
     position: absolute;
     top: 18%;
     filter: opacity(0%);
-
     font-size: 30px;
-
     left: 50%;
-    transform: translate(-50%,0);
+    transform: translate(-50%, 0);
     animation: fadein 2s forwards;
-    
+
 }
 
-#p1{
+#p1 {
     animation: p1 .9s .3s forwards;
 }
-#p2{
+
+#p2 {
     animation: p2 1s .5s forwards;
 }
-#p3{
+
+#p3 {
     animation: p3 .8s .4s forwards;
 }
-#p4{
+
+#p4 {
     animation: p4 .7s .6s forwards;
 }
+
 @keyframes p1 {
-    0%{
+    0% {
         margin-left: -100px;
         filter: opacity(0%);
     }
-    100%{
+
+    100% {
         filter: opacity(100%);
         margin-left: 0;
     }
 }
+
 @keyframes p2 {
-    0%{
+    0% {
         margin-left: 100px;
         filter: opacity(0%);
     }
-    100%{
+
+    100% {
         filter: opacity(100%);
         margin-left: 0px;
     }
 }
+
 @keyframes p3 {
-    0%{
+    0% {
         margin-left: 100px;
         margin-top: -100px;
         filter: opacity(0%);
     }
-    100%{
+
+    100% {
         filter: opacity(100%);
         margin-left: 0px;
         margin-top: 0px;
     }
 }
+
 @keyframes p4 {
-    0%{
+    0% {
         margin-left: -100px;
         margin-top: 100px;
         filter: opacity(0%);
     }
-    100%{
+
+    100% {
         filter: opacity(100%);
         margin-left: 0px;
         margin-top: 0px;
     }
 }
+
 @keyframes fadein {
-    0%{
+    0% {
         top: -50%;
         filter: opacity(0%);
     }
-    80%{
+
+    80% {
         filter: opacity(0%);
     }
-    100%{
+
+    100% {
         top: 18%;
         filter: opacity(100%);
     }
-    
+
 }
+
 @media only screen and (max-height: 600px) {
     .portada {
         min-height: 600px;
     }
-    .imagenPortada{
+
+    .imagenPortada {
         max-width: 400px;
-        
+
     }
-    .imagenPortada{
+
+    .imagenPortada {
         top: 45%;
     }
 }
+
 @media only screen and (max-width: 600px) {
     .portada {
         min-height: 600px;
     }
-    .imagenPortada{
+
+    .imagenPortada {
         top: 50%;
     }
-    .imagenPortada{
+
+    .imagenPortada {
         max-width: 400px;
     }
 }

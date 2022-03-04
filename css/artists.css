@@ -2,8 +2,59 @@
     min-height: 100vh;
 }
 .sec2{
+    min-height: 100vh;
+    background:#F8F9FA;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: .5s;
+    z-index: 0;
+}
+
+.targetas{
+    position: relative;
+
+    width: 550px;
+    min-height: 550px;
+    cursor: pointer;
+/* background: red; */
+
+/* overflow: hidden; */
+
+}
+.targetas .targeta{
+    position: absolute;
+    top: calc(50% - 200px);
+    left: 50%;
+    width: 300px;
+    height: 400px;
+    background-color:#262626;
+    border-radius: 10px;
+    transform: translateX(-50%) translateY(calc(50px * var(--i))) rotate(40deg) skew(-20deg,-10deg) scale(0.6);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    z-index: calc(-1* var(--i));
+    transition: .5s;
+}
+.targetas .targeta:nth-child(2){
+    opacity: .8;
+}
+.targetas .targeta:nth-child(3){
+    opacity: .6;
+}
+.targetas:hover .targeta{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    opacity: 1;
+    transform: translateX(calc(-50% + calc(350px * var(--i)))) translateY(-50%) rotate(0deg) skew(0deg,0deg) scale(1);
+}
+.sec3{
     height: 130vh;
-    background: url(../Imagenes/sec4.png);
+    background: url(../Imagenes/sec4.png) #F8F9FA;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -13,7 +64,7 @@
     align-items: center;
 
 }
-.sec2 > h1{
+.sec3 > h1{
     font-size: 80px;
     letter-spacing: 10px;
     font-family: 'Anton', sans-serif;
@@ -26,6 +77,7 @@
     justify-content: center;
     align-items: center;
     transform: translate(-50%,-50%);
+    font-family: 'Montserrat', sans-serif;
 }
 
 .bola1{
@@ -35,6 +87,10 @@
 .bola2{
     top: 650px;
     left: calc(50% + 300px);
+}
+.bola3{
+    top: 50%;
+    left: 50%;
 }
 .contenido1{
     padding: 60px;
@@ -63,8 +119,13 @@
     transform: translate(-50%,-50%);
     width: 110%;
     height: 110%;
-    border: 1px solid #000;
+    border: 1px solid #262626;
     border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+}
+.bola3 >.cuadrado span{
+
+    width: 120%;
+    height: 120%;
 }
 .contenido > button{
     z-index: 10;
@@ -80,8 +141,23 @@
     animation: giro 7s linear infinite;
 
 }
+.contenido-tar{
+    color: #F8F9FA;
+    position: relative;
+    height: 100%;
+    opacity: 0;
+    transition: .5s;
 
-
+    /* transition-delay: 1s; */
+    transform: translateY(50px);
+    z-index: 10;
+}
+.targetas:hover .targeta .contenido-tar{
+    opacity: 1;
+    transition-delay: calc(0.2s * var(--j));
+    transform: translateY(0);
+    /* background: red; */
+}
 @keyframes giro {
     0%{
         transform:translate(-50%,-50%) rotate(0deg);
@@ -126,8 +202,52 @@
     .container-fluid{
         overflow: hidden;
     }
-    .sec2{
+    .sec3{
         height: 100vh;
 
     }
 }
+@media (max-width: 990px) {
+
+    .bola3{
+        display: none;
+    }
+    .targetas .targeta, .targetas:hover .targeta, .targetas{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        z-index: 1;
+        opacity: 1 !important;
+        transform: initial;
+        top: 0;
+        left:  0;
+    }
+    .targetas .targeta, .targetas:hover .targeta{
+        margin: 20px;
+    }
+    .targetas{
+        width: 100%;
+        height: 100%;
+    }
+    .targeta{
+        top: initial;
+        left: initial;
+        position: initial;
+        display: block;
+
+    }
+    .contenido-tar{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .targetas:hover .targeta .contenido-tar{
+        opacity: 1;
+        transition-delay:initial;
+        transform: translateY(0);
+        /* background: red; */
+    }
+    
+
+    }

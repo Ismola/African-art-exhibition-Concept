@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
     transition: .5s;
     z-index: 0;
 
@@ -35,7 +35,7 @@
     height: 400px;
     background-color:#262626;
     border-radius: 10px;
-    transform: translateX(-50%) translateY(calc(50px * var(--i))) rotate(40deg) skew(-20deg,-10deg) scale(0.6);
+    transform: translateX(-50%) translateY(calc(20px * var(--i))) rotate(40deg) skew(-20deg,-10deg) scale(0.4);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     z-index: calc(-1* var(--i));
     transition: .5s;

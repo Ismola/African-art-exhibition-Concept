@@ -1,5 +1,5 @@
 .sec1{
-    min-height: 100vh;
+    min-height: 1200px;
 }
 .sec2{
     min-height: 100vh;
@@ -12,6 +12,8 @@
 
     transition: .5s;
     z-index: 0;
+
+
 }
 
 .targetas{
@@ -20,7 +22,7 @@
     width: 550px;
     min-height: 550px;
     cursor: pointer;
-/* background: red; */
+
 
 /* overflow: hidden; */
 

@@ -86,7 +86,7 @@ sutilmente con el blanco roto.
 
 ### Tipografías.
 
-Montserrat(Párrafos)
+Montserrat (Párrafos)
 
 Roboto (Titulos principales)
 
@@ -98,7 +98,7 @@ Para los iconos que se han utilizado, a
 parte del logo, son los de las redes
 sociales.
 
-## Desarrollo del proyecto y conclussión:
+## Desarrollo del proyecto y conclusión:
 
 En general, pienso que el proyecto ha
 tenido exito. Se ha conseguido lo que 

@@ -3,6 +3,9 @@
 
 ![Screenshot 2022-03-04 at 11-15-05 Exposicion de arte](https://user-images.githubusercontent.com/60386407/156744629-5aae771b-1c2f-410e-8d0c-967b4e08d9d8.png)
 
+![imagen](https://user-images.githubusercontent.com/60386407/156919100-3c0846ac-6899-4127-8cb4-6e031e76dbf7.png)
+
+
 # Documentación
 
 ## Definicion del proyecto

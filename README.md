@@ -3,9 +3,9 @@
 
 ![Screenshot 2022-03-04 at 11-15-05 Exposicion de arte](https://user-images.githubusercontent.com/60386407/156744629-5aae771b-1c2f-410e-8d0c-967b4e08d9d8.png)
 
-Documentación
+# Documentación
 
-Definicion del proyecto
+## Definicion del proyecto
 
 Para este proyecto, se ha pensado en
 desarrollar una página para unaexoposicion
@@ -17,8 +17,7 @@ personalizados, photoshop para el retoque
 de imagenes,illustrator para el retoque
 de imagenes vectoriales.
 
-
-Planificación del proeycto
+## Planificación del proeycto
 
 Para realizar este proeycto, lo primero
 que se ha hecho es pensar en el diseño
@@ -33,7 +32,7 @@ Y por ultimo a hacer las paginas, que están
 divididas por secciones.
 
 
-Analisis del proyecto
+## Analisis del proyecto
 
 Este proyecto, es cierto que le falta
 contenido, pero podría ser valida para usarse
@@ -45,10 +44,10 @@ el ancho de banda sea el minimo necesario,
 sin sacrificar en exceso la calidad de imagen.
 
 
-Diseño del proyecto
+## Diseño del proyecto
 
 
-Marca:
+### Marca:
 
 Para el diseño
 de la marca,
@@ -68,7 +67,7 @@ significa Animal. Se ha escogido este
 nombre, porque una de las cosas que más
 se fotografían de África son sus animales.
 
-Paleta de colores:
+### Paleta de colores:
 
 La paleta de colores que se ha escogido
 refleja muy bien la linea de diseño de la
@@ -80,23 +79,26 @@ El blanco mas grisaceo se utiliza para
 resaltar las secciones, y que destaque
 sutilmente con el blanco roto.
 
+    #F8F9FA
+    #EEEEEE
+    #262626
 
-Tipografías.
+
+### Tipografías.
 
 Montserrat(Párrafos)
 
 Roboto (Titulos principales)
 
-
 Anton (Titulos con imagen de fondo)
 
-Iconos:
+### Iconos:
 
 Para los iconos que se han utilizado, a
 parte del logo, son los de las redes
 sociales.
 
-Desarrollo del proyecto y conclussión:
+## Desarrollo del proyecto y conclussión:
 
 En general, pienso que el proyecto ha
 tenido exito. Se ha conseguido lo que 
@@ -115,9 +117,15 @@ repercutiese demasiado en la calidad final.
 Bibliografía:
 
 
-https://fontawesome.com
-https://www.pexels.com/es-es/
-https://pixabay.com/es/
-https://unsplash.com/
-https://cssgenerator.org/
-https://www.pinterest.es/
+    https://fontawesome.com
+
+    https://www.pexels.com/es-es/
+
+    https://pixabay.com/es/
+
+    https://unsplash.com/
+
+    https://cssgenerator.org/
+
+    https://www.pinterest.es/
+

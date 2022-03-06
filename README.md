@@ -114,8 +114,7 @@ bajar la calidad lo máximo posible, sin que
 repercutiese demasiado en la calidad final.
 
 
-Bibliografía:
-
+## Bibliografía:
 
     https://fontawesome.com
 

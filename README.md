@@ -92,9 +92,9 @@ sutilmente con el blanco roto.
 
 Montserrat (Párrafos)
 
-Roboto (Titulos principales)
+Roboto (Títulos principales)
 
-Anton (Titulos con imagen de fondo)
+Anton (Títulos con imagen de fondo)
 
 ### Iconos:
 

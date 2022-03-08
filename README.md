@@ -5,7 +5,7 @@
 
 ![imagen](https://user-images.githubusercontent.com/60386407/156919100-3c0846ac-6899-4127-8cb4-6e031e76dbf7.png)
 
-https://ismola-exposicion.netlify.app/
+![imagen](https://user-images.githubusercontent.com/60386407/157225066-802ca325-d0c0-40f3-ae65-26db44271289.png)
 
 # Documentación
 

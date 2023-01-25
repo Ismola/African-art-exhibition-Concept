@@ -12,10 +12,10 @@
 ## Definicion del proyecto
 
 Para este proyecto, se ha pensado en
-desarrollar una página para unaexoposicion
-o concurso de fotografíaafricana. Para ello
+desarrollar una página para una exoposicion
+o concurso de fotografía africana. Para ello
 se va a emplear boostrap 5 para los
-componenetes de lapágina, JQuery para
+componenetes de la página, JQuery para
 algunas animaciones,,css 3 para dar estilos
 personalizados, photoshop para el retoque
 de imagenes,illustrator para el retoque

@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: african_art
+    container_name: african-art
     ports:
       - "8080:80"
     restart: unless-stopped

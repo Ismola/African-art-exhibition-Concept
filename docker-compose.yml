@@ -6,6 +6,11 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: african-art
+    networks:
+      - cloudflare_default
     ports:
       - "8080:80"
     restart: unless-stopped
+networks:
+  cloudflare_default:
+    external: true
